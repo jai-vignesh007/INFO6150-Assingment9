@@ -1,4 +1,3 @@
-// src/components/NavBar.js
 import React, { useContext } from 'react';
 import { AppBar, Toolbar, Typography, Button, makeStyles } from '@material-ui/core';
 import { Link, useHistory } from 'react-router-dom';

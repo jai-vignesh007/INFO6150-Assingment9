@@ -1,21 +1,15 @@
+// src/pages/About/About.js
 import React from 'react';
-import { Container, Typography, Box } from '@material-ui/core';
 import NavBar from '../../components/NavBar';
 import Footer from '../../components/Footer';
+import AboutContent from '../../components/AboutContent';
 
-const About = () => {
-  return (
-    <>
-      <NavBar />
-      <Container>
-        <Box my={4}>
-          <Typography variant="h3" gutterBottom>About</Typography>
-          <Typography>Learn more about our company and mission.</Typography>
-        </Box>
-      </Container>
-      <Footer />
-    </>
-  );
-};
+const About = () => (
+  <>
+    <NavBar />
+    <AboutContent />
+    <Footer />
+  </>
+);
 
 export default About;
